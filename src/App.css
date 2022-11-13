@@ -1,0 +1,71 @@
+.hero {
+  background-image: url(./assets/hero.webp);
+  background-color: #000000;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-position: 70% 10%;
+  z-index: -30;
+  filter: contrast(90%);
+}
+
+/* Owl carousel Styling button */
+.left-arrow,
+.right-arrow {
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.owl-prev:hover,
+.owl-next:hover,
+.left-arrow:hover,
+.right-arrow:hover {
+  background-color: #fff !important;
+  color: #2962ff;
+}
+
+.disabled {
+  display: none !important;
+}
+/* -------------------- */
+
+/* ---------- Scroll bar style ------------ */
+
+#modal::-webkit-scrollbar {
+  width: 0px;
+}
+#select::-webkit-scrollbar {
+  width: 2px;
+}
+
+#topbar::-webkit-scrollbar {
+  width: 0;
+}
+#topbar {
+  white-space: nowrap;
+}
+#select::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+#select::-webkit-scrollbar-thumb {
+  background: #9598a1;
+  border-radius: 10px;
+}
+
+.tv-header__link {
+  display: none !important;
+}
